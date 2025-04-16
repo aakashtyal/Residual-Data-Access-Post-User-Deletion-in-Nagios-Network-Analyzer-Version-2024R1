@@ -23,7 +23,7 @@ This vulnerability results from the absence of proper backend validation of user
 
 ## Affected Vendor/Product
 - **Product Name**- Nagios Network Analyzer
-- **Version**- 2024R1
+- **Version**- 2024R2
 
 ## Summary of the Issue  
 When an administrator deletes a user, their session remains active, leading to:  
