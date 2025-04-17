@@ -1,7 +1,7 @@
 # Residual Data Access Post User Deletion in Nagios Network Analyzer Version 2024R1.0.3
 
 ## Overview  
-A vulnerability in Nagios Network Analyzer Version 2024R1 allows deleted users to retain access to system resources due to improper session invalidation and stale token handling. When an administrator deletes a user account, the backend fails to terminate active sessions and revoke associated API tokens, enabling unauthorized access to restricted functionalities.
+A vulnerability in Nagios Network Analyzer Version 2024R1.0.3 allows deleted users to retain access to system resources due to improper session invalidation and stale token handling. When an administrator deletes a user account, the backend fails to terminate active sessions and revoke associated API tokens, enabling unauthorized access to restricted functionalities.
 
 Attackers can exploit this issue to:
 
