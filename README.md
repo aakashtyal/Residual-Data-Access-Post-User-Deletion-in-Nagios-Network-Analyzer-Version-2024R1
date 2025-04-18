@@ -12,9 +12,10 @@ Execute privileged actions such as creating new queries through /xxx/xx/create-q
 This vulnerability results from the absence of proper backend validation of user account status during API request handling and insufficient cleanup of user session metadata upon deletion.
 
 ## Severity  
-- **Impact:** High  
 - **CWE:** CWE-613 (Insufficient Session Expiration)  
-- **CVSS Score:** AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N  
+- **Severity:** High
+- **CVSS Score:** 8.1
+- **CVSS Vector:** AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
 
 ## Affected Components  
 - **User session management**  
